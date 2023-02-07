@@ -1,0 +1,166 @@
+[{
+        "shipmentId": 13030605,
+        "shipmentNumber": "221108120013",
+        "shipmentType": 1,
+        "shipmentTypeName": "Export",
+        "vessel": "MSC Shay",
+        "carrierName": "MAERSK",
+        "carrierCode": "MAEU",
+        "shipperName": "LANXESS Deutschland, K├Âln",
+        "consigneeName": "LANXESS, Pittsburgh",
+        "goodsReceiverName": "LANXESS, Pittsburgh",
+        "voyage": "242W",
+        "etd": "2022-10-28T00:00:00",
+        "eta": "2022-11-06T00:00:00",
+        "grossWeight": null,
+        "volume": null,
+        "teu": 0,
+        "noOfPieces": 0,
+        "portOfLoading": "DEBRV",
+        "portOfLoadingName": "Bremerhaven",
+        "portOfDestination": "USNYC",
+        "portOfDestinationName": "New York, NY",
+        "finalDestination": null,
+        "incoTerm": 2,
+        "incoTermName": "CIF",
+        "incoTermLocation": "PORT OF NEW YORK",
+        "orderType": 3,
+        "orderTypeName": "Cargo for Consolidation",
+        "trackingId": 3296711,
+        "orderDate": "2022-09-07T00:00:00",
+        "hasHouseBL": true,
+        "totalCount": 0,
+        "customerReferences": [{
+                "name": "ImportReferenceNumber",
+                "value": "221150170036"
+            }, {
+                "name": "CustomsReferenceNumber",
+                "value": "2100-00-0000-7060"
+            }, {
+                "name": "BillOfLadingNumberHouse",
+                "value": "ALRB221108120013"
+            }, {
+                "name": "DeliveryNumber",
+                "value": "5000278662"
+            }, {
+                "name": "TransportNumber",
+                "value": "2500023439"
+            }, {
+                "name": "CustomerLoadingNumber",
+                "value": "2500023439"
+            }, {
+                "name": "CustomerOrderNumber",
+                "value": "2100034048"
+            }, {
+                "name": "PartnerID",
+                "value": "4000105576"
+            }
+        ],
+        "containers": [],
+        "events": [{
+                "eventId": 6882874,
+                "trackingId": 3296711,
+                "eventTypeId": 21,
+                "eventTypeName": "Departure",
+                "eventTypeGroupId": 2,
+                "eventTypeGroupName": "Transport",
+                "original": "2022-11-02T00:00:00",
+                "estimated": "2022-10-28T00:00:00",
+                "actual": "2022-10-29T14:39:00",
+                "utcOffsetInMinutes": 999,
+                "location": "DEBRV",
+                "locationText": null,
+                "airport": null,
+                "geographyLatitude": null,
+                "geographyLongitude": null,
+                "conveyanceTypeId": 2,
+                "conveyanceTypeName": "Vessel",
+                "conveyanceIdentifier": "242W",
+                "conveyanceName": "MSC SHAY",
+                "transportSection": null,
+                "source": "PLAN",
+                "provider": "ABS"
+            }, {
+                "eventId": 6882875,
+                "trackingId": 3296711,
+                "eventTypeId": 26,
+                "eventTypeName": "Arrival",
+                "eventTypeGroupId": 2,
+                "eventTypeGroupName": "Transport",
+                "original": "2022-11-17T00:00:00",
+                "estimated": "2022-11-06T00:00:00",
+                "actual": "2022-11-06T01:00:00",
+                "utcOffsetInMinutes": 999,
+                "location": "USNYC",
+                "locationText": null,
+                "airport": null,
+                "geographyLatitude": null,
+                "geographyLongitude": null,
+                "conveyanceTypeId": 2,
+                "conveyanceTypeName": "Vessel",
+                "conveyanceIdentifier": "242W",
+                "conveyanceName": "MSC SHAY",
+                "transportSection": null,
+                "source": "PLAN",
+                "provider": "ABS"
+            }, {
+                "eventId": 7237544,
+                "trackingId": 3296711,
+                "eventTypeId": 73,
+                "eventTypeName": "Gate In CFS",
+                "eventTypeGroupId": 3,
+                "eventTypeGroupName": "Export Compliance",
+                "original": null,
+                "estimated": null,
+                "actual": "2022-10-20T12:30:20",
+                "utcOffsetInMinutes": 999,
+                "location": "DEBRV",
+                "locationText": null,
+                "airport": null,
+                "geographyLatitude": null,
+                "geographyLongitude": null,
+                "conveyanceTypeId": 5,
+                "conveyanceTypeName": "Terminal",
+                "conveyanceIdentifier": null,
+                "conveyanceName": null,
+                "transportSection": null,
+                "source": "Mig73LCL",
+                "provider": "ABS"
+            }, {
+                "eventId": 7428027,
+                "trackingId": 3296711,
+                "eventTypeId": 79,
+                "eventTypeName": "Gate Out CFS",
+                "eventTypeGroupId": 6,
+                "eventTypeGroupName": "Import Compliance",
+                "original": "2022-11-11T00:00:00",
+                "estimated": "2022-11-11T00:00:00",
+                "actual": "2022-11-11T00:00:00",
+                "utcOffsetInMinutes": 999,
+                "location": "USNYC",
+                "locationText": null,
+                "airport": null,
+                "geographyLatitude": null,
+                "geographyLongitude": null,
+                "conveyanceTypeId": 5,
+                "conveyanceTypeName": "Terminal",
+                "conveyanceIdentifier": null,
+                "conveyanceName": null,
+                "transportSection": null,
+                "source": "Mig77LCL",
+                "provider": "ABS"
+            }
+        ],
+        "closings": [{
+                "trackingId": 3296711,
+                "fileNumber": null,
+                "closingTypeId": 6,
+                "closingTypeName": "Requested Delivery Date",
+                "actual": "2022-11-17T00:00:00",
+                "utcOffsetInMinutes": 999,
+                "source": "ABS",
+                "provider": "MIG6LCL"
+            }
+        ]
+    }
+]
